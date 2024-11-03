@@ -17,21 +17,39 @@
             <a href="media.html">Media</a>
             <a href="about.html">About</a>
         </nav>
-        <a href="login.html"><button id="login">Login</button></a>
+        <a href="login.html" id="login">Login</a>
     </header>
     <section id="hero">
         <h1>Let's Explore Diverse Cuisines</h1>
         <p>Come learn and indulge in a variety of cuisines all over the world!</p>
-        <div id="search-box">
+        <div id="ticket-purchase">
             <label for="ticket">Purchase Ticket</label>
             <select id="ticket-price">
                 <option value="400">Early Bird 1 Ticket (400 HUF)</option>
                 <option value="500">Normal 1 Ticket (500 HUF)</option>
                 <option value="2000">Bundle 5 Tickets (2000 HUF)</option>
             </select>
-            <input type="number" placeholder="Guests" min="1" max="10">
-            <button>Search</button>
+            <button id="buy-btn">Buy</button>
+        </div>
+        <div id="payment-options" style="display:none;">
+            <h2>Payment Options</h2>
+            <img src="mastercard_visa.png" alt="MasterCard and Visa logos">
+            <form>
+                <label>Card Number:</label>
+                <input type="text" placeholder="Card Number">
+                <label>Expiry Date:</label>
+                <input type="text" placeholder="MM/YY">
+                <label>CVV:</label>
+                <input type="text" placeholder="CVV">
+                <button type="submit">Purchase</button>
+            </form>
         </div>
     </section>
+    <script>
+        // JavaScript to toggle the payment form on "Buy" button click
+        document.getElementById("buy-btn").addEventListener("click", function() {
+            document.getElementById("payment-options").style.display = "block";
+        });
+    </script>
 </body>
 </html>
