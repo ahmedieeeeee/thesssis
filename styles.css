@@ -1,0 +1,179 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0f4c5c;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #1a5e76;
+}
+
+header img#logo {
+    height: 50px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #d9b44a;
+}
+
+button#login {
+    background-color: #d9b44a;
+    color: #1a5e76;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#login:hover {
+    background-color: #ffc857;
+}
+
+/* Hero Section (Home Page) */
+#hero {
+    padding: 2em;
+    background-color: #145374;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+#search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#search-box input, #search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-box button {
+    background-color: #ffc857;
+    color: #1a5e76;
+    cursor: pointer;
+}
+
+/* Form Styles (Login, Vendor Registration) */
+section form {
+    background-color: #145374;
+    padding: 2em;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+section form label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+section form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+section form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9b44a;
+    color: #1a5e76;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section form button:hover {
+    background-color: #ffc857;
+}
+
+/* Vendor Precautions */
+#precautions-list {
+    text-align: left;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 2em;
+    background-color: #145374;
+    border-radius: 10px;
+}
+
+#precautions-list h3 {
+    color: #ffc857;
+    margin-top: 1em;
+}
+
+/* Media Gallery */
+.media-gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.media-gallery img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* About Page */
+#about {
+    background-color: #145374;
+    padding: 2em;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    color: #ffc857;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
