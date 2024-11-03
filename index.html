@@ -24,8 +24,12 @@
         <p>Come learn and indulge in a variety of cuisines all over the world!</p>
         <div id="search-box">
             <label for="ticket">Purchase Ticket</label>
-            <input type="text" placeholder="Select countries">
-            <input type="number" placeholder="Guests">
+            <select id="ticket-price">
+                <option value="400">Early Bird 1 Ticket (400 HUF)</option>
+                <option value="500">Normal 1 Ticket (500 HUF)</option>
+                <option value="2000">Bundle 5 Tickets (2000 HUF)</option>
+            </select>
+            <input type="number" placeholder="Guests" min="1" max="10">
             <button>Search</button>
         </div>
     </section>
