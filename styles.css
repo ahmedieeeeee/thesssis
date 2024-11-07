@@ -185,3 +185,29 @@ section form button:hover {
     width: auto;
     max-width: 60px;
 }
+
+/* Updates Box Styling */
+#updates {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.updates-box {
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    color: #0f4c5c;
+    text-align: center;
+}
+
+.updates-box h2 {
+    color: #1a5e76;
+    margin-bottom: 10px;
+}
+
+.updates-box p {
+    font-size: 1.1em;
+}
