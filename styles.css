@@ -212,9 +212,3 @@ section form button:hover {
     font-size: 1.1em;
 }
 
-
-body {
-    background: url('9097255.jpg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #ffffff; /* Ensure text is readable against the background */
-}
